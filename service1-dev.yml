@@ -1,0 +1,6 @@
+server:
+  port: 8082
+
+app:
+  name: "Service 1"
+  environment: "dev"
