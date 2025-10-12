@@ -16,11 +16,8 @@ spring:
     url: jdbc:mysql://localhost:3306/service1_dev
     username: dev_user
     password: dev_pass
-  profiles:
-    active: dev
 
 logging:
   level:
     root: INFO
     com.service1: DEBUG
-
