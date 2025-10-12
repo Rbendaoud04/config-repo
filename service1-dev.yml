@@ -6,7 +6,7 @@ server:
 app:
   name: "Service 1"
   version: "1.0.5:latest"
-  developer: "rbendaoud@email.com"
+  developer: "rbendaoud@rbd.com"
   feature-flags:
     enableNewUI: true
     enableLogging: true
@@ -21,6 +21,7 @@ logging:
   level:
     root: INFO
     com.service1: DEBUG
+
 
 
 
