@@ -5,7 +5,6 @@ server:
 
 app:
   name: "Service 1"
-  environment: "dev"
   version: "1.0.1"
   developer: "rbd.dev"
   feature-flags:
@@ -24,3 +23,4 @@ logging:
   level:
     root: INFO
     com.service1: DEBUG
+
